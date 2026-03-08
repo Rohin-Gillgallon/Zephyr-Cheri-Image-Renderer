@@ -21,6 +21,9 @@ This project demonstrates the secure management of dynamic graphical assets—re
 
 ## 🚀 Build and Run
 ```bash
+source /home/rohin/zephyr-cheri-lab/.venv/bin/activate
 west build -b qemu_riscv64cheri_purecap projects/project_6_image_renderer
 west build -t run
+# OR run directly:
+./build/zephyr/zephyr.exe
 ```
