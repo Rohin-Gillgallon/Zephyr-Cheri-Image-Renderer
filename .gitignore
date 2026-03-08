@@ -1,0 +1,16 @@
+# Zephyr/CMake build artifacts
+build/
+bin/
+obj/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+
+# Python environment
+.venv/
+__pycache__/
+
+# CHERI/LLVM specific temporary files
+*.cap-table

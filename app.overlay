@@ -1,0 +1,9 @@
+/*
+ * Overlay for native_sim board - SDL display
+ * For CHERI target, use boards/qemu_riscv64cheri_purecap.overlay
+ */
+
+&sdl_dc {
+	height = <650>;
+	width = <850>;
+};
