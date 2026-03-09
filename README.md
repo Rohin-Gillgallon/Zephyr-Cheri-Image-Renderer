@@ -4,7 +4,7 @@ This project demonstrates the secure management of dynamic graphical assets—re
 
 ## 📸 System Implementation
 ![Dog Asset Isolation](assets/screenshot.png)
-*Figure 1: The animated dog asset rendered within a hardware-bounded memory region.*
+*Figure 1: The dog asset rendered within a hardware-bounded memory region.*
 
 ## 🛡️ Security Features: Asset Integrity
 * **Object-Level Isolation:** The dog asset is stored as a discrete memory object. CHERI capabilities ensure that any routine accessing the dog's pixel data cannot overread into adjacent kernel memory or other assets.
